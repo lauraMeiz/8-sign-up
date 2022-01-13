@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="./css/main.
-css"
-    />
-
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
@@ -37,6 +31,18 @@ css"
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="shortcut icon" href="./img/favicon.jpg" type="image/jpeg" />
+    <link
+  rel="stylesheet"
+  href="./css/form.css"
+/>
+    <link
+  rel="stylesheet"
+  href="./css/main.css"
+/>
+
+
+
+
   </head>
   <body>
     <main class="container">
@@ -48,7 +54,17 @@ css"
         </footer>
       </div>
       <div class="right-column"><div class="close">x</div>
-      <form>REGISTRATION FORM </form>
+      <form class="form"> 
+      <div class="form-row"> <label for="">Username</label><input type="text" placeholder="Ana" required> </div>
+      <div class="form-row"> <label for="">Email</label><input type="email" placeholder="ana@ana" required></div>
+      <div class="form-row"> <label for="">Password</label> <input type="password" placeholder="Your password" required></div>
+      <div class="form-row"> <label for="">Repeat password</label><input type="password" placeholder="Your password" required></div>
+      <div class="form-row"> <button type="submit"> Get started</button>
+      <span>or</span>
+    <a href="#">Sign in</a></div>  
+      
+
+      </form>
     </main>
   </body>
 </html>
