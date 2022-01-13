@@ -15,7 +15,7 @@ body {
   margin-top: 100px;
   margin-left: calc(50% - 400px);
 }
-.container > .leftcolumn {
+.container > .left-column {
   width: 40%;
   padding: 40px;
   float: left;
@@ -26,4 +26,16 @@ body {
   padding: 60px;
   float: left;
   background-color: #fff;
+}
+.main-title {
+  font-weight: normal;
+}
+.bottom-links {
+  color: #fff8;
+}
+.bottom-links > .link {
+  color: #fff8;
+}
+.bottom-links > .link:hover {
+  color: #fff;
 }
