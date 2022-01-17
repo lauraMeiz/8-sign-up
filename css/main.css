@@ -77,6 +77,6 @@ body {
   font-size: 50px;
   transform: rotate(45deg);
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: 0px;
 }
