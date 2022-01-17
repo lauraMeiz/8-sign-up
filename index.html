@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="./css/main.
-css"
-    />
-
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
@@ -37,6 +31,18 @@ css"
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="shortcut icon" href="./img/favicon.jpg" type="image/jpeg" />
+    <link
+  rel="stylesheet"
+  href="./css/form.css"
+/>
+    <link
+  rel="stylesheet"
+  href="./css/main.css"
+/>
+
+
+
+
   </head>
   <body>
     <main class="container">
@@ -47,7 +53,18 @@ css"
           ><a class="link" href="#">terms of service</a>
         </footer>
       </div>
-      <div class="right-column">Right column</div>
+      <div class="right-column"><div class="close">x</div>
+      <form class="form"> 
+      <div class="form-row"> <label for="username">Username</label><input id="username" type="text" placeholder="Ana" required> </div>
+      <div class="form-row"> <label for="email">Email</label><input id="email" type="email" placeholder="ana@ana" required></div>
+      <div class="form-row"> <label for="pass">Password</label> <input id="pass" type="password" placeholder="Your password" required></div>
+      <div class="form-row"> <label for="repass">Repeat password</label><input id="repass" type="password" placeholder="Your password" required></div>
+      <div class="form-row"> <button type="submit"> Get started</button>
+      <span>or</span>
+    <a href="#">Sign in</a></div>  
+      
+
+      </form>
     </main>
   </body>
 </html>
