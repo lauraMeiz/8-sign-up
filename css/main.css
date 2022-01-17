@@ -32,6 +32,7 @@ body {
   padding: 60px;
   float: left;
   background-color: #fff;
+  position: relative;
 }
 .main-title {
   font-weight: normal;
@@ -51,4 +52,13 @@ body {
 .right-column a {
 }
 .close {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 50px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  top: 0;
 }
