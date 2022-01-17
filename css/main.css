@@ -79,4 +79,6 @@ body {
   position: absolute;
   right: 0px;
   top: 0px;
+  color: #999;
+  font-weight: lighter;
 }
